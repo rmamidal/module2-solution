@@ -25,7 +25,7 @@
 
     function ShoppingListCheckOffService() {
         let service = this;
-        let toBuy = ['10 cookies ', '4 bottles of surgary drinks', '10 packets of chips'];
+        let toBuy = ['10 cookies ', '4 bottles of surgary drinks', '10 packets of chips', '10 bananas', '10 apples'];
         let bought = [];
 
         service.getToBuy = function () {
